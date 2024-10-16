@@ -1,4 +1,4 @@
-import { default as prettierConfig } from "@thazstack/prettier-config";
+import { default as prettierConfig } from '@thazstack/prettier-config';
 
 /**
  * @see https://prettier.io/docs/en/configuration.html
@@ -7,3 +7,5 @@ import { default as prettierConfig } from "@thazstack/prettier-config";
 const config = {
     ...prettierConfig,
 };
+
+export default config;

@@ -1,13 +1,13 @@
 // https://prettier.io/docs/en/options
 // https://github.com/prettier/prettier/blob/main/docs/configuration.md#editorconfig
 
-import { type RequiredOptions } from "prettier";
+import { type RequiredOptions } from 'prettier';
 
 const clashingEditorConfigDefaults: Pick<
     RequiredOptions,
-    "endOfLine" | "tabWidth" | "printWidth" | "useTabs"
+    'endOfLine' | 'tabWidth' | 'printWidth' | 'useTabs'
 > = {
-    endOfLine: "lf",
+    endOfLine: 'lf',
     tabWidth: 4,
     printWidth: 80,
     useTabs: false,
@@ -16,15 +16,15 @@ const clashingEditorConfigDefaults: Pick<
 const prettierConfig: Partial<RequiredOptions> = {
     ...clashingEditorConfigDefaults,
 
-    arrowParens: "always",
+    arrowParens: 'always',
     bracketSameLine: false,
     bracketSpacing: true,
     jsxSingleQuote: false,
-    quoteProps: "as-needed",
+    quoteProps: 'as-needed',
     singleAttributePerLine: true,
     singleQuote: true,
     semi: true,
-    trailingComma: "all",
+    trailingComma: 'all',
 
     // overrides: [
     //     {
