@@ -1,0 +1,3 @@
+```
+pnpm create @tanstack/router
+```

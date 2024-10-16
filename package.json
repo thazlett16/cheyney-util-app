@@ -1,0 +1,30 @@
+{
+    "name": "cheyney-app-monorepo-root",
+    "version": "0.0.0",
+    "description": "cheyney app base monorepo root",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thazlett16/cheyney-util-app.git"
+    },
+    "author": {
+        "name": "Tim Hazlett",
+        "email": "timhazlett2016@gmail.com"
+    },
+    "keywords": [],
+    "packageManager": "pnpm@9.9.0",
+    "engines": {
+        "node": ">20.0.0",
+        "npm": ">10.0.0"
+    },
+    "type": "module",
+    "sideEffects": false,
+    "scripts": {
+        "prettier": "prettier .",
+        "prettier:write": "prettier . --write"
+    },
+    "devDependencies": {
+        "@thazstack/prettier-config": "workspace:*",
+        "prettier": "^3.3.3"
+    }
+}
